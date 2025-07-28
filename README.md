@@ -1,4 +1,7 @@
 # DeepBrain
+
+A project guided by Dr J Manikandan(Placement and Training department) team members -Vedant Patil,Saksham Kumar Singh,Harshit Arora,Ishan Pardi,Anuj rai
+
 Automated brain tumor detection from MRI with deep learning. Uses transfer learning with ResNet-50 to classify glioma, meningioma, pituitary tumors, or healthy brains. Achieves 94% test accuracy. Empowers faster, reliable medical diagnostics.
 Model Architecture Overview
 Base Model: ResNet50 (pre-trained on ImageNet, include_top=False, input size: 150×150×3)
