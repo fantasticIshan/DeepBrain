@@ -1,4 +1,4 @@
-#DeepBrain
+# DeepBrain
 
 A project guided by Dr J Manikandan(Placement and Training department) team members -Vedant Patil,Saksham Kumar Singh,Harshit Arora,Ishan Pardi,Anuj rai
 
@@ -31,7 +31,5 @@ Non-trainable params: 23,587,712 (≈90MB)
 Compilation Settings Loss Function: categorical_crossentropy (for one-hot encoded multi-class)
 
 Optimizer: Adam
-
-REPORT ----------------- REPORT BRAIN TUMOR.pdf
 
 Purpose: This architecture uses ResNet50 as a feature extractor. Only the newly added dense layers (top classifier) and batch normalization/dropout layers are updated during training. The model is tailored for multi-class brain tumor MRI classification with 4 categories: glioma tumor, meningioma tumor, no tumor, and pituitary tumor
